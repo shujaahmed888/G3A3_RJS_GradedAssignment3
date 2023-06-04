@@ -1,0 +1,9 @@
+.home-btn {
+  display: none;
+}
+
+@media (max-width: 995px) {
+  .home-btn {
+    display: inline-block;
+  }
+}

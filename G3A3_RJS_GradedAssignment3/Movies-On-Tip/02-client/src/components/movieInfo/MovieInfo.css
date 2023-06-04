@@ -1,0 +1,30 @@
+.bt-head :link {
+  text-decoration: underline;
+  color: steelblue;
+}
+.st-details {
+  text-align: justify;
+}
+
+.nav-btn {
+  display: none;
+  text-transform: capitalize;
+}
+
+.btn-back {
+  display: inline;
+}
+
+@media (max-width: 1020px) {
+  .info-display {
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  .info-display img {
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+   .nav-btn{
+    display: inline;
+  } 
+}
